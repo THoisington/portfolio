@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// @import '~foundation-sites/dist/js/foundation.js';
+// @include foundation-everything(true);
 
 @Component({
   selector: 'app-root',

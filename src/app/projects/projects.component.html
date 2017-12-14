@@ -1,0 +1,16 @@
+<div class="row small-up-2 medium-up-3" id="projects-wrapper">
+  <div class="column column-block" *ngFor="let project of projects; let last = last" [ngClass]="{'end': last}">
+    <a routerLink="/detail/{{project.id}}">
+      <div class="project-padding">
+        <div class="preview" [ngStyle]="{'background-image': project.image }"></div>
+        <div class="info">
+          <p>{{project.name}}</p>
+          <ul class="tags">
+            <li *ngFor="let tag of project.tags"><img src="../../assets/tag.png">{{tag}}</li>
+          </ul>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+<!-- <a routerLink="/detail/{{hero.id}}"> -->

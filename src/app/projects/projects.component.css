@@ -1,0 +1,39 @@
+#projects-wrapper{
+  margin-top: 20px;
+}
+
+.project-padding{
+  /* padding: 0 15px; */
+  background-color: var(--background);
+  box-shadow: 0px 0px 10px #0006;
+}
+
+.preview{
+  content: '';
+  background-size: cover;
+  background-position: center;
+  height: 120px;
+  width: auto;
+}
+
+div.info{
+  padding: 10px 15px;
+  color: var(--secondary-color);
+}
+
+ul.tags{
+  margin:0;
+}
+
+ul.tags li{
+  display: inline-block;
+  list-style: none;
+  background-color: var(--main-color);
+  margin-right: 10px;
+}
+
+/* ul.tags div.tag-icon{
+  content: '';
+  background-size: cover;
+  background-image: url('../../assets/tag.png');
+} */

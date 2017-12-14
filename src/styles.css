@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~foundation-sites/dist/css/foundation-float.css';
+@include foundation-everything(true);
+
+:root {
+  --main-color: #B1F6CB;
+  --secondary-color: #5B9992;
+  --tertiary-color: #0094DD;
+  --background: rgba(235, 253, 212, 1);
+  --nav-padding: 30%;
+  /*var(--main-color);*/
+}
+
+body{
+  background-image: url("./assets/congruent_pentagon.png");
+  background-repeat: repeat;
+}
+
+/******* Nav Content ********/
+
+nav#side{
+  display: inline-block;
+  position: fixed;
+  height: 100vh;
+  width: var(--nav-padding);
+  background-color: var(--background);
+  color: var(--secondary-color);
+}
+
+nav#side>*{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#me{
+  content: '';
+  background-image: url('./assets/me.jpg');
+  background-size: cover;
+  height: 150px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+nav#side h1{
+  text-align: left;
+  margin: 75px auto 5px auto;
+  font-size: 24px;
+}
+nav#side h4{
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+nav#side ul.menu li{
+  display: block;
+  margin-bottom: 20px;
+  text-align: left;
+  cursor: pointer;
+  border-left: solid 5px var(--main-color);
+  padding-left: 10px;
+}
+
+nav#side ul.menu li:hover{
+  color: var(--tertiary-color);
+}
+
+.note{
+  margin-top: 30px;
+  border-left: solid 5px var(--main-color);
+  padding-left: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+/******* Main Content ********/
+
+div#main{
+  display: inline-block;
+  padding-left: var(--nav-padding);
+  width: 100%;
+}
+
+div.content-box{
+  background-color: var(--background);
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px lightgray;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 20px;
+}
