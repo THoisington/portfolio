@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "assets/foundation.css",
         "styles.css"
       ],
       "scripts": [],
@@ -47,10 +48,6 @@
       "project": "e2e/tsconfig.e2e.json",
       "exclude": "**/node_modules/**"
     }
-  ],
-  "scripts": [
-   "../node_modules/jquery/dist/jquery.min.js",
-   "../node_modules/foundation-sites/dist/js/foundation.min.js"
   ],
   "test": {
     "karma": {
