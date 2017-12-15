@@ -56,33 +56,33 @@ div.content-border{
   content: '';
   background-size: cover;
   background-position: center;
-  background-image: url('assets/me.jpg');
+  background-image: url('assets/me.JPG');
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
 
 #banner1{
-  background-image: url('assets/klassik.png');
+  background-image: url('assets/klassik.PNG');
 }
 #banner2{
-  background-image: url('assets/schlachthof.png');
+  background-image: url('assets/schlachthof.PNG');
 }
 #banner3{
-  background-image: url('assets/kern.png');
+  background-image: url('assets/kern.PNG');
 }
 #banner4{
-  background-image: url('assets/kaiser.png');
+  background-image: url('assets/kaiser.PNG');
 }
 #banner5{
-  background-image: url('assets/feedback.png');
+  background-image: url('assets/feedback.PNG');
 }
 #banner6{
-  background-image: url('assets/wh.png');
+  background-image: url('assets/wh.PNG');
 }
 #banner7{
-  background-image: url('assets/paa.png');
+  background-image: url('assets/paa.PNG');
 }
 #banner8{
-  background-image: url('assets/sdm.png');
+  background-image: url('assets/sdm.PNG');
 }
