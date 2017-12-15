@@ -4,7 +4,7 @@ export const PROJECTS: Project[] = [
   { id: 1, name: 'Klassik Radio: Adventskalendar', tags: ["component"], image: "url('../assets/klassik.PNG')", link: "http://www.klassikradio.de/",
   description: "If you visit Klassik Radio's website before Christmas time, you will see on their home page Adventskalendar and Geschkentipp sections. While the design of the latter had to be changed last minute due to a client request, they still turned out pretty cool. They load content dynamically depending on your geolocation."},
   { id: 2, name: 'Schlachthof', tags: ["feature","fixes"], image: "url('../assets/schlachthof.PNG')", link: "http://www.schlachthof-restaurant-bar.de/",
-  description: "Yay, parallax corn! I made that on the front page, as well as tweaking various parts of the site such as content box resizing, footer layout, and cleaning up bad code."}
+  description: "Yay, parallax corn! I made that on the front page, as well as tweaking various parts of the site such as content box resizing, footer layout, and cleaning up bad code."},
   { id: 3, name: 'Kern MB', tags: ["feature","fixes"], image: "url('../assets/kern.PNG')", link: "https://www.kern-mb.de/",
   description: "The header was a pain! Like most of the sites on this list, I didn't start this website myself. That made improving the animations, responsiveness, and display of the angled header so tricky. But my favorite thing I did for Kern is the image color fades on the homepage on mobile. Check it out! "},
   { id: 4, name: 'Kaiser Showtechnik', tags: ["fixes"], image: "url('../assets/kaiser.PNG')", link: "http://www.kaiser-showtechnik.de/  ",
